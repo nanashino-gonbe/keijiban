@@ -1,0 +1,145 @@
+body {
+    font-family: "Hiragino Kaku Gothic ProN","メイリオ",sans-serif;
+}
+
+header ul {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+}
+
+header ul li {
+    float: left;
+    padding-left: 50px;
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    line-height: 50px;
+}
+
+main {
+    clear: both;
+}
+
+.main-container {
+    width: 95%;
+}
+
+.left {
+    float: left;
+    width: 70%;
+    margin-bottom: 40px;
+    padding-right: 50px;
+}
+
+.left h1 {
+    border-left: 4px black solid;
+    border-bottom: 4px gray solid;
+}
+
+.left form {
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: solid 2px #dcdcdc;
+    border-radius: 10px;
+    background-color: #fefefe;
+}
+
+.left h2 {
+    margin: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    border-left: red solid 4px; 
+    background-color: #fafafa;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.left form ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.left form ul li {
+    margin-bottom: 30px;
+}
+
+.left li p {
+    margin-bottom: 5px;
+    color: gray;
+}
+
+.left #handlename, #title, #comments {
+    border: 1px solid #dfdfdf;
+    padding: 5px;
+    background: #fff;
+    color: #999;
+}
+
+.left .submit {
+    margin-left: 0;
+    border: 1px solid lightgray;
+    padding: 4px 10px;
+    background-color: #bfbfbf;
+    border-radius: 5px;
+    border-bottom: 2px solid gray;
+    color: white;
+}
+
+.left .board {
+    margin: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: solid 2px #dcdcdc;
+    border-radius: 10px;
+    background-color: #fefefe;
+}
+
+.left h3 {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border-bottom: 2px dotted lightgray;
+    font-size: 20px;
+}
+
+.left .contents {
+    
+}
+
+.left .handlename {
+    margin-top: 5px;
+    font-size: 11px;
+}
+
+.right {
+    float: left;
+    width: 25%;
+    margin: 12px 0px 40px 0px;
+}
+
+.right h4 {
+    border-bottom: dotted gray;
+    font-size: 25px;
+}
+
+.right ul {
+    list-style-type: none;
+    line-height: 2;
+    padding-left: 1em;
+    
+}
+
+footer {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
